@@ -1,1 +1,10 @@
 @import 'tailwindcss';
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100..900&display=swap');
+
+    body {
+      background: url(https://cdn.10minuteschool.com/json/Background_Noise_1732776287934_1736059620396.png);
+      background-color: rgba(0, 0, 0, 1);
+      font-family: "Noto Sans Bengali", sans-serif;
+      font-optical-sizing: auto;
+    }
