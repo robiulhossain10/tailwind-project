@@ -3,23 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tailwind 4.1</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container mx-auto mt-32">
-     <!-- Main Div  -->
-      <div class="grid grid-cols-3 gap-5 invisible lg:visible">
-              <div class="">
-        <img class="object-cover" width="450" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV31zZ7yVYZygfRGGcG1GpUc2NAQ2V6VXaoA&s" alt="">
-      </div>
-      <div class="">
-        <img width="450" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV31zZ7yVYZygfRGGcG1GpUc2NAQ2V6VXaoA&s" alt="">
-      </div>
-      <div class="">
-        <img width="450" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV31zZ7yVYZygfRGGcG1GpUc2NAQ2V6VXaoA&s" alt="">
-      </div>
-      </div>
+      <!-- Main Div  -->
+<div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-12 gap-4">
+  <div class="bg-red-400 p-4 col-span-1 lg:col-span-4">Box 1</div>
+  <div class="bg-green-400 p-4 col-span-1 lg:col-span-4">Box 2</div>
+  <div class="bg-blue-400 p-4 col-span-1 lg:col-span-4">Box 3</div>
+</div>
+
+
     </div>
   </body>
 </html>
